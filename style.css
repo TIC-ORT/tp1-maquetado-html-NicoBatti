@@ -2,22 +2,20 @@
     margin: 0%;
     padding: 0%;
 }
-.header{
-    width: 90%;
-    height: 100px;
-    background-color: gray;
+:root{
+    --naranja1: #FFD680;
+    --naranja2: #FFC86D;
+}
+.containerArriba{
+    width: 100vw;
+    height: 30vh;
+    background-color: var(--naranja1);
     display: flex;
     justify-content: center;
-    margin-left: 34px ;
+    align-items: center;
 }
-.articles{
-    display: flex;
-    justify-content:space-between
-}
-.tops{
-    width: 50px;
-    height: 45px;
-    background-color: aliceblue;
-    display: flex;
-    ;
+.imagen{
+    width: 20vw;
+    height: 20vh;
+    background-color: var(--naranja2) ;
 }
